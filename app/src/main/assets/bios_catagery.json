@@ -1,0 +1,57 @@
+[
+ {
+  "catagry_id": 1,
+  "catagry_name": "Sarcastic Bios",
+  "catagry_image": "sarcastic_bios.webp"
+ },
+ {
+  "catagry_id": 2,
+  "catagry_name": "Thought-Provoking Bios",
+  "catagry_image": "thought_rovoking_ios.webp"
+ },
+ {
+  "catagry_id": 3,
+  "catagry_name": "Inspirational Bios",
+  "catagry_image": "inspirational_bios.webp"
+ },
+ {
+  "catagry_id": 4,
+  "catagry_name": "Success Bios",
+  "catagry_image": "success_bios.webp"
+ },
+ {
+  "catagry_id": 5,
+  "catagry_name": "Leadership Bios",
+  "catagry_image": "leadership_bios.webp"
+ },
+ {
+  "catagry_id": 6,
+  "catagry_name": "Spirituality Bios",
+  "catagry_image": "spirituality_bios.webp"
+ },
+ {
+  "catagry_id": 7,
+  "catagry_name": "Courage Bios",
+  "catagry_image": "courage_bios.webp"
+ },
+ {
+  "catagry_id": 8,
+  "catagry_name": "Funny Bios",
+  "catagry_image": "funny_bios.webp"
+ },
+ {
+  "catagry_id": 9,
+  "catagry_name": "Food-Related Bios",
+  "catagry_image": "foodrelated_bios.webp"
+ },
+ {
+  "catagry_id": 10,
+  "catagry_name": "Straightforward Bios",
+  "catagry_image": "straightforward_bios.webp"
+ },
+ {
+  "catagry_id": 11,
+  "catagry_name": "Emoji Bios",
+  "catagry_image": "emoji_bios.webp"
+ }
+]

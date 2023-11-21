@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="@dimen/_15sdp"
+            android:src="@drawable/language" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:fontFamily="@font/rubik_bold"
+            android:text="@string/choose_your_language"
+            android:textColor="@color/color_social_text"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/tvTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/please_select_your_language"
+            android:textColor="@color/sub_textcolor"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChooseLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linBottom"
+        android:layout_below="@+id/linTop"
+        android:layout_marginTop="@dimen/_5sdp" />
+
+    <LinearLayout
+        android:id="@+id/linBottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_above="@+id/banner_container"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/choose_language_bottom"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/drawable_button_round_solid_bg"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_35sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingRight="@dimen/_35sdp"
+            android:paddingBottom="@dimen/_8sdp"
+            android:text="@string/Continue"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.facebook.ads.NativeAdLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp">
+
+        <include layout="@layout/shimmer_main_layout" />
+    </com.facebook.ads.NativeAdLayout>
+
+</RelativeLayout>

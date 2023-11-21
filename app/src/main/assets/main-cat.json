@@ -1,0 +1,632 @@
+[
+  {
+    "id": 6,
+    "name": "Love",
+    "newsubcategories": [
+      {
+        "id": 128,
+        "name": "All"
+      },
+      {
+        "id": 114,
+        "name": "Feelings"
+      },
+      {
+        "id": 108,
+        "name": "Valentine"
+      },
+      {
+        "id": 65,
+        "name": "Flirty"
+      },
+      {
+        "id": 63,
+        "name": "Crush"
+      },
+      {
+        "id": 62,
+        "name": "Missing"
+      },
+      {
+        "id": 61,
+        "name": "Hug"
+      },
+      {
+        "id": 60,
+        "name": "Kiss"
+      },
+      {
+        "id": 26,
+        "name": "Soul"
+      },
+      {
+        "id": 25,
+        "name": "Couple"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Attitude",
+    "newsubcategories": [
+	  {
+        "id": 131,
+        "name": "All"
+      },
+      {
+        "id": 156,
+        "name": "Lit"
+      },
+    
+      {
+        "id": 117,
+        "name": "Cool"
+      },
+      {
+        "id": 94,
+        "name": "Boy"
+      },
+      {
+        "id": 52,
+        "name": "Sassy"
+      },
+      {
+        "id": 51,
+        "name": "Savage"
+      },
+      {
+        "id": 5,
+        "name": "Girl"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Friends",
+    "newsubcategories": [
+      {
+        "id": 134,
+        "name": "All"
+      },
+      {
+        "id": 120,
+        "name": "Best Friend"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Photography",
+    "newsubcategories": [
+      {
+        "id": 129,
+        "name": "All"
+      },
+      {
+        "id": 80,
+        "name": "DP"
+      },
+      {
+        "id": 78,
+        "name": "Memories"
+      },
+      {
+        "id": 4,
+        "name": "Selfie"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Emotion",
+    "newsubcategories": [
+	  {
+        "id": 133,
+        "name": "All"
+      },
+      {
+        "id": 157,
+        "name": "Joy Happiness"
+      },
+    
+      {
+        "id": 115,
+        "name": "Happy Smile"
+      },
+      {
+        "id": 74,
+        "name": "Anger"
+      },
+      {
+        "id": 73,
+        "name": "Fear"
+      },
+      {
+        "id": 72,
+        "name": "Crazy"
+      },
+      {
+        "id": 71,
+        "name": "Surprise"
+      },
+      {
+        "id": 7,
+        "name": "Funny"
+      },
+      {
+        "id": 6,
+        "name": "Alone"
+      },
+      {
+        "id": 3,
+        "name": "Sad"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Fashion",
+    "newsubcategories": [
+	 {
+        "id": 132,
+        "name": "All"
+      },
+      {
+        "id": 140,
+        "name": "Tattoo"
+      },
+     
+      {
+        "id": 121,
+        "name": "Hair"
+      },
+      {
+        "id": 116,
+        "name": "Clothing"
+      },
+      {
+        "id": 69,
+        "name": "Style"
+      },
+      {
+        "id": 68,
+        "name": "Makeup"
+      },
+      {
+        "id": 67,
+        "name": "Accessories"
+      },
+      {
+        "id": 2,
+        "name": "Beauty"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Festival",
+    "newsubcategories": [
+      {
+        "id": 151,
+        "name": "Rakshabandhan"
+      },
+      {
+        "id": 143,
+        "name": "Happy Holi"
+      },
+      {
+        "id": 141,
+        "name": "Other Festivals"
+      },
+      {
+        "id": 17,
+        "name": "Diwali"
+      },
+      {
+        "id": 10,
+        "name": "New Year"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Travel",
+    "newsubcategories": [
+      {
+        "id": 130,
+        "name": "All"
+      },
+      {
+        "id": 75,
+        "name": "Holiday"
+      },
+      {
+        "id": 50,
+        "name": "Beach"
+      },
+      {
+        "id": 49,
+        "name": "Adventure"
+      },
+      {
+        "id": 18,
+        "name": "Mountain"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Food",
+    "newsubcategories": [
+      {
+        "id": 136,
+        "name": "All"
+      },
+      {
+        "id": 77,
+        "name": "Coffee"
+      },
+      {
+        "id": 76,
+        "name": "Tea"
+      },
+      {
+        "id": 46,
+        "name": "Breakfast"
+      },
+      {
+        "id": 45,
+        "name": "Lunch"
+      },
+      {
+        "id": 44,
+        "name": "Dinner"
+      },
+      {
+        "id": 43,
+        "name": "Dessert"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Nature",
+    "newsubcategories": [
+	 {
+        "id": 109,
+        "name": "All"
+      },
+      {
+        "id": 110,
+        "name": "Ocean Water"
+      },
+     
+      {
+        "id": 57,
+        "name": "Desert"
+      },
+      {
+        "id": 56,
+        "name": "Sky"
+      },
+      {
+        "id": 55,
+        "name": "Forest"
+      },
+      {
+        "id": 50,
+        "name": "Beach"
+      },
+      {
+        "id": 23,
+        "name": "Snow"
+      },
+      {
+        "id": 21,
+        "name": "Sun"
+      },
+      {
+        "id": 18,
+        "name": "Mountain"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Inspirational",
+    "newsubcategories": [
+      {
+        "id": 112,
+        "name": "All"
+      },
+      {
+        "id": 103,
+        "name": "Good"
+      },
+      {
+        "id": 93,
+        "name": "Business"
+      },
+      {
+        "id": 92,
+        "name": "Faith"
+      },
+      {
+        "id": 91,
+        "name": "Leadership"
+      },
+      {
+        "id": 90,
+        "name": "Courage"
+      },
+      {
+        "id": 22,
+        "name": "Success"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Season",
+    "newsubcategories": [
+      {
+        "id": 137,
+        "name": "All"
+      },
+      {
+        "id": 111,
+        "name": "Autumn Fall"
+      },
+      {
+        "id": 81,
+        "name": "Spring"
+      },
+      {
+        "id": 16,
+        "name": "Summer"
+      },
+      {
+        "id": 15,
+        "name": "Winter"
+      },
+      {
+        "id": 14,
+        "name": "Monsoon"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Sports",
+    "newsubcategories": [
+      {
+        "id": 126,
+        "name": "All"
+      },
+      {
+        "id": 59,
+        "name": "Wrestling"
+      },
+      {
+        "id": 41,
+        "name": "Cricket"
+      },
+      {
+        "id": 40,
+        "name": "Other Sports"
+      },
+      {
+        "id": 37,
+        "name": "Tennis"
+      },
+      {
+        "id": 35,
+        "name": "Baseball"
+      },
+      {
+        "id": 32,
+        "name": "Hockey"
+      },
+      {
+        "id": 31,
+        "name": "Football"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Others",
+    "newsubcategories": [
+      {
+        "id": 161,
+        "name": "Work From Home"
+      },
+      {
+        "id": 122,
+        "name": "Pets Animals"
+      },
+      {
+        "id": 102,
+        "name": "Cute"
+      },
+      {
+        "id": 99,
+        "name": "Wedding"
+      },
+      {
+        "id": 98,
+        "name": "Rides"
+      },
+      {
+        "id": 97,
+        "name": "Buy/Bought"
+      },
+      {
+        "id": 96,
+        "name": "Weekend Vibes"
+      },
+      {
+        "id": 95,
+        "name": "Karma"
+      },
+      {
+        "id": 29,
+        "name": "Family"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Entertainment",
+    "newsubcategories": [
+      {
+        "id": 127,
+        "name": "All"
+      },
+      {
+        "id": 85,
+        "name": "Lyrics"
+      },
+      {
+        "id": 84,
+        "name": "Art"
+      },
+      {
+        "id": 83,
+        "name": "Music"
+      },
+      {
+        "id": 30,
+        "name": "Dance"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Wishes Greetings",
+    "newsubcategories": [
+      {
+        "id": 138,
+        "name": "All"
+      },
+      {
+        "id": 89,
+        "name": "Sorry"
+      },
+      {
+        "id": 88,
+        "name": "Thank You"
+      },
+      {
+        "id": 87,
+        "name": "Good Night"
+      },
+      {
+        "id": 86,
+        "name": "Good Morning"
+      },
+      {
+        "id": 48,
+        "name": "Anniversary"
+      },
+      {
+        "id": 47,
+        "name": "Birthday"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Celebration",
+    "newsubcategories": [
+      {
+        "id": 139,
+        "name": "All"
+      },
+      {
+        "id": 53,
+        "name": "Party"
+      },
+      {
+        "id": 48,
+        "name": "Anniversary"
+      },
+      {
+        "id": 47,
+        "name": "Birthday"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Health Fitness",
+    "newsubcategories": [
+      {
+        "id": 135,
+        "name": "All"
+      },
+      {
+        "id": 125,
+        "name": "Diet"
+      },
+      {
+        "id": 124,
+        "name": "Gym"
+      },
+      {
+        "id": 123,
+        "name": "Workout"
+      },
+      {
+        "id": 101,
+        "name": "Yoga"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "International Day",
+    "newsubcategories": [
+      {
+        "id": 160,
+        "name": "Family Day"
+      },
+      {
+        "id": 158,
+        "name": "Christmas Day"
+      },
+      {
+        "id": 155,
+        "name": "Daughter's Day"
+      },
+      {
+        "id": 154,
+        "name": "Chocolate Day"
+      },
+      {
+        "id": 153,
+        "name": "Teacher's Day"
+      },
+      {
+        "id": 152,
+        "name": "Independence Day"
+      },
+      {
+        "id": 150,
+        "name": "Friendship Day"
+      },
+      {
+        "id": 149,
+        "name": "Yoga Day"
+      },
+      {
+        "id": 148,
+        "name": "Father's Day"
+      },
+      {
+        "id": 147,
+        "name": "Worker's Day"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="foreground" format="reference">
+    </attr>
+    <attr name="colorSecondary" format="color">
+    </attr>
+    <attr name="selectableColor" format="reference">
+    </attr>
+    <attr name="yt_animationDuration" format="integer">
+    </attr>
+    <attr name="yt_arcSize" format="dimension">
+    </attr>
+    <attr name="yt_backgroundCircleColor" format="color">
+    </attr>
+    <attr name="yt_icon" format="reference">
+    </attr>
+    <attr name="yt_iconAnimationDuration" format="integer">
+    </attr>
+    <attr name="yt_playerView" format="reference">
+    </attr>
+    <attr name="yt_seekSeconds" format="integer">
+    </attr>
+    <attr name="yt_tapCircleColor" format="color">
+    </attr>
+    <attr name="yt_textAppearance" format="reference">
+    </attr>
+    <attr name="dtpv_controller" format="reference">
+    </attr>
+</resources>

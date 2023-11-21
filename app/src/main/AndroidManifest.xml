@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <queries>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.twitter.android"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+    </queries>
+    <permission android:name="videodownloader.privatebrowser.free.hd.statussaver.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="videodownloader.privatebrowser.free.hd.statussaver.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+
+    <queries>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.facebook.katana" />
+        <package android:name="com.twitter.android" />
+
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".DclassApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:hardwareAccelerated="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeCustom"
+        android:usesCleartextTraffic="true"
+        >
+
+        <activity
+            android:name="videodownloader.privatebrowser.free.hd.statussaver.mainapp.SplashScreenActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="true"
+            android:theme="@style/SplashStyle"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".whatstool.WhatsMainActivity" android:theme="@style/AppThemeCustom"/>
+        <activity android:name=".whatstool.WaStatusActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".whatstool.MyStatuesActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.socialTools.HashTagShareCopyActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.socialTools.HashTagScreenActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.socialTools.HashTagDetailsActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.socialTools.CaptionSubCategoryActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.socialTools.CaptionShareActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.socialTools.CaptionScreenActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.socialTools.BioSubCategoryActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.socialTools.BioMainActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.socialTools.BioEditShareActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.ScreenSplashHelp" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.ScreenHistory" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.ScreenHelpForDownload" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.ScreenAppSettings" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.PasteLinkActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.MainActivityVideos" android:theme="@style/AppThemeCustom"  android:screenOrientation="portrait"
+            android:stateNotNeeded="true" />
+        <activity android:name=".mainapp.IntroActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.ClassImageViewer" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.ClassExit" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.ChooseLanguageActivity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.ActivityVideoLink" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.Downloader_Creation_Activity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.Downloader_ViewMultipleImagePager_Activity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.Downloader_PlayerVideo_Activity" android:theme="@style/AppThemeCustom" />
+        <activity android:name=".mainapp.MK_WhtsappShowActivity" android:theme="@style/AppThemeCustom" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="videodownloader.privatebrowser.free.hd.statussaver.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/save_path_provide"/>
+        </provider>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671495518103",
+    "project_id": "video-downloader-b4007",
+    "storage_bucket": "video-downloader-b4007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671495518103:android:d95e7c60f61105d0b776d2",
+        "android_client_info": {
+          "package_name": "videodownloader.privatebrowser.free.hd.statussaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671495518103-orf7hq4ricg59fsateqgqtqg6p7s5q1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE7-vIsMuu01WPnB9649iPW_-uf-br8PE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671495518103-orf7hq4ricg59fsateqgqtqg6p7s5q1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
